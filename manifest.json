@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Imagify",
+    "version": "1.0",
+    "description": "Create images from text descriptions",
+    "icons":{
+        "48": "image.png"
+    },
+    "browser_action":{
+        "default_popup": "index.html",
+        "default_icon": {
+            "48":"image.png"
+        }
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
